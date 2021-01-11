@@ -1,16 +1,11 @@
 import React from 'react';
 import {Layout} from 'components/Layouts';
-import {SearchButton, TextInput} from 'components/atoms'
-import './App.css';
+import {SearchField} from 'components/organisms'
 
 function App() {
   return (
     <Layout>
-      <TextInput
-        onChange={() => null}
-        type={"text"}
-        value={"Foo"}
-      />
+      <SearchField />
     </Layout>
   );
 }
