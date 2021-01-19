@@ -24,4 +24,4 @@ yarn-error.log*
 
 src/rakuten/config.ts
 
-eslintcache
+.eslintcache
